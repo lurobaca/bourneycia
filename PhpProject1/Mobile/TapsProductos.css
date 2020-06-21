@@ -1,0 +1,132 @@
+/* CSS Document */
+#AyudaContenedor
+{
+	display:none;
+}
+#tabs_Productos {
+	font-size: 90%;
+	margin: 0px 0;
+	width:100%;
+}
+/*Estado inactivo del tap*/
+#ultabs {
+	float: left;
+	background: #fff;
+
+	padding-top: 4px;
+	
+	margin-left:-15px;
+	
+	margin-bottom:-0.5px;
+	
+}
+
+
+
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+/*color de bodedes de TAPS con titulo del tap*/
+#tabs_Productos li#litab-1,#tabs_Productos li#litab-2 {
+	border:thin solid #F60;
+	border-radius:10px 10px 0 0;
+	/*margin-left: 8px;*/
+	list-style: none;
+	width: 100%;
+}
+@media only screen and (min-width: 481px) {
+
+#tabs_Productos li#litab-1,#tabs_Productos li#litab-2 {
+	 
+	 border:thin solid #F60;
+	border-radius:10px 10px 0 0;
+	/*margin-left: 8px;*/
+	list-style: none;
+	
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+
+#tabs_Productos li#litab-1,#tabs_Productos li#litab-2 {
+	border:thin solid #F60;
+	border-radius:10px 10px 0 0;
+	/*margin-left: 8px;*/
+	list-style: none;
+	 	
+	 
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#tabs_Productos li#litab-1,#tabs_Productos li#litab-2 {
+	display: inline;
+}
+#tabs_Productos li#litab-1,#tabs_Productos li#litab-2, #tabs_Productos li#litab-1 a#atab-1, #tabs_Productos li#litab-2 a#atab-2 {
+	float: left;
+}
+
+
+/*Cuando el TAP esta activo*/
+#tabs_Productos ul li.active {
+	
+	background: #FF8000;
+		
+}	
+#tabs_Productos ul li.active a#atab-1,#tabs_Productos ul li.active  a#atab-2 {
+	color: #FFFFFF;
+}
+/*Diseno del contenedor de cada tap*/
+#tab-1,#tab-2 {
+	background: #FFFFFF;
+	clear: both;
+	padding: 2px;
+	/*min-height: 400px;*/
+	height: auto;
+	border-radius:5px;
+	border:thin solid #FFF;
+	width:100%;
+	overflow:hidden;
+}
+
+#tabs_Productos div#tab-1 h3,#tabs_Productos div#tab-2 h3 {
+	margin-bottom: 1px;
+}
+#tabs_Productos div#tab-1 p,#tabs_Productos div#tab-2 p {
+	line-height: 150%;
+}
+#tabs_Productos ul li a#atab-1,#tabs_Productos ul li a#atab-2 {
+	text-decoration: none;
+	padding: 8px;
+	color: #C16100;
+	font-weight: bold;
+}
+.thumbs {
+	float:left;
+	border:#000 solid 1px;
+	margin-bottom:20px;
+	margin-right:20px;
+}
+

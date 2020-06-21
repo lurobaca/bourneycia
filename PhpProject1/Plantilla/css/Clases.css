@@ -1,0 +1,62 @@
+/* CSS Document */
+ .TitulpPagina{
+	 height:25px;
+	  margin-top:70px; 
+	  margin-bottom:1px; 
+	   border-bottom:thin solid #C0C0C0;
+	 
+	 }
+.HeadCol
+{
+padding:5px;
+/*border-bottom:thin solid #CCC;*/
+height:25px;
+}
+.HeadCol img
+{
+margin-left:-10px;
+}
+.MenuItem
+{
+color:#FFF;
+text-decoration:none;
+}
+.FirtItem
+{
+display:inline-block;
+margin-right:20px;
+position:relative;
+top:-18px;
+left:0px;
+color:#FFF;
+cursor:pointer;
+   font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+}
+
+
+a.MenuItem:hover 
+{
+color:#F00;
+margin-bottom:10px;
+}
+
+li.FirtItem  ul  li
+{
+position:absolute;
+top:-99999;
+color:#000;
+display:block;
+
+}
+ul.FirtItem:hover ul li
+{
+	
+	position:absolute;
+	
+	display:block;
+color:#000;
+background-color:#FFF;
+
+}
+

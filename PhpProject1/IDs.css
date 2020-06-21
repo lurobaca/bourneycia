@@ -1,0 +1,448 @@
+/* CSS Document */
+#FBLike
+{
+position:fixed;
+top:90;
+right:0;
+height:120PX;
+width:80PX;
+background-color:#FFF;
+z-index:10PX;
+border-radius:5px;
+padding:5px;
+}
+
+#FBShare
+{
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+position:fixed;
+top:305px;
+right:15px;
+height:auto;
+
+width:60px;
+background-color:#E6E6FF;
+z-index:13PX;
+border-radius:5px;
+padding:5px;
+border:thin solid #CECEFF;
+}
+
+#FBShare a
+{
+	text-align:center;
+	text-decoration:none;
+}
+
+#OpinionClientes,#Carrito1
+{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+position:fixed;
+top:565px;
+right:0;
+height:AUTO;
+border:thin solid #F60;
+width:70PX;
+background-color:#F60;
+z-index:13PX;
+border-radius:5px;
+padding:5px;
+color:#FFF;
+
+}
+#Carrito1
+{
+top:80px;
+left:0;
+width:75PX;
+height:AUTO;
+background-color:#FFF;
+color:#000;
+font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+#Carrito1 div
+{
+ margin-top:5px;	
+}
+#Carrito:hover
+{
+box-shadow:#F60;
+}
+#CarBtn > div
+{
+	border-radius:5px;
+	border:thin solid #F60;
+	width:100%;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background-color:#FFF;
+	margin-bottom:10px;
+		background-color:#FEF3B4;
+
+}
+#CarBtn > div a
+{
+	color:#F60;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+
+	
+}
+#CarBtn > div:hover 
+{
+	background-color:#F60;
+
+}
+#CarBtn > div:hover  a
+{
+	
+	color:#FFF;
+}
+#DatosCar div
+{
+	background-color:#FFF;
+  	border-radius:5px;
+	border:thin solid #F60;
+	color:#F60;
+	text-decoration:none;
+	width:100%;
+	
+	
+	}
+#OpinionClientes 
+{
+	text-decoration:none;
+
+	color:#F60;
+}
+
+#OpinionClientes:hover 
+{
+		color:#F60;
+		background-color:#FFFFFF;
+}
+#InfoUserLogeado a
+{ 
+ font-size:10px;
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#LoginUser,#ModuloAyuda
+{
+		
+	background:#FFF;
+	 border-radius:20px;
+	 padding:20px;	
+	 height:380px;
+     width:350PX;
+	 margin:0 auto;
+	  
+margin-top:25PX;
+}
+#ModuloAyuda
+{
+height:AUTO;
+     width:700PX;
+		
+
+}
+#OpLogin
+{
+height:auto;
+border:thin solid #CCC;
+border-radius:10px;
+padding:10px;
+margin-bottom:5px;
+margin-top:5px;
+
+}
+#OpLogin div
+{
+	display:block; 
+	margin-left:2PX;
+	margin-bottom:10px;
+}
+
+#ComoObtenerPassword,#OlvidePassword
+{
+	padding:3px;
+border-top:thin solid #999;
+color:#F60;
+
+
+}
+
+#ComoObtenerPassword p
+{
+color:#FFF;
+text-decoration:none;
+font-size:16px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+#ComoObtenerPassword a
+{
+color:#CF0;
+text-decoration:none;
+font-size:16px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#OpLogin a
+{
+
+text-decoration:none;
+
+}
+
+#CerrarVentana a
+{
+	text-decoration:none;
+color:#C60;
+position:relative;
+top:10px;
+right:100px;
+
+}
+#CerrarVentana a:hover
+{
+
+color:#F90;
+
+
+}
+/*herencia*/
+#btsend,#btsendRegistro,#btsendLogin,#btsendLoginIndex
+{
+width:100PX;
+height:25PX;
+position:relative;
+
+border:none;
+background-color:#FF9900;
+color:#FFF;
+background: linear-gradient(top, black, white);
+border:thin solid #FFE1C4;
+font-size:12px;
+
+
+}
+#btsendLoginIndex
+{
+width:150PX;
+height:25PX;
+}
+#btsend
+{
+top:-60PX;
+left:200PX;
+}
+#btsendRegistro
+{
+
+top:-15PX;
+left:10PX;
+
+
+}
+#btsendLogin
+{
+top:0PX;
+left:0PX;
+margin:10px 0px;
+width:350px;
+}
+#btsend:hover,#btsendRegistro:hover,#btsendLogin:hover
+{
+	
+box-shadow:0px 0px 20px rgba(255,153,0,0.8);
+background-color:#FFFFFF;
+color:#F60;
+
+}
+#btsendEmpleo
+{
+width:100PX;
+height:50PX;
+position:relative;
+top:-0PX;
+left:10PX;
+border:none;
+background-color:#FF8000;
+background: linear-gradient(top, black, white);
+border:thin solid #FFE1C4;
+font-size:14px;
+color:#FFFFFF;
+
+}
+#btsendEmpleo:hover
+{
+	
+  color:#FF8000;
+  background: #FFFFFF;
+   font-size:14px;
+
+}
+#btsendContact
+{
+width:100PX;
+height:50PX;
+position:relative;
+top:-10PX;
+left:10PX;
+border:none;
+background-color:#FF6600;
+background: linear-gradient(top, black, white);
+border:thin solid #FFE1C4;
+font-size:14px;
+color:#FFFFFF;
+
+}
+#btsendContact:hover
+{
+	
+  color:#FF8000;
+  background: #FFFFFF;
+   font-size:14px;
+
+}
+
+
+#BusquedaProducto
+{
+	height:auto;
+	
+	
+	 border-radius:5px;
+    margin-bottom:105px;
+	padding:5px;
+	width:100%;
+	margin:0 auto;
+
+}
+
+#Add {
+	display:block;margin:0 auto 0 auto;
+	border-radius:3px;
+	padding:4px;
+	color:#36F;
+	border:thin solid #CCC;
+
+	height:15px;
+	position:relative;
+	top:-8px;
+	left:0px;
+	text-decoration:none;
+	text-align:center;
+	background-color:#F60;
+	color:#FFF;
+	
+	}
+
+#Add:hover {
+	background-color:#FFF;
+	color:#F60;
+	}
+#FacVencidas {
+	display:block;margin:0 auto 0 auto;
+	border-radius:3px;
+	padding:4px;
+	color:#36F;
+	border:thin solid #CCC;
+
+	height:15px;
+	position:relative;
+	top:-8px;
+	left:0px;
+	text-decoration:none;
+	text-align:center;
+	background-color:#F00;
+	color:#FFF;
+	
+	}
+
+#FacVencidas:hover {
+	background-color:#FFF;
+	color:#F60;
+	}	
+	
+#AddInicio {
+	display:block;margin:0 auto 0 auto;
+	border-radius:3px;
+	padding:4px;
+	color:#36F;
+	border:thin solid #CCC;
+
+	height:15px;
+
+	text-decoration:none;
+	text-align:center;
+	background-color:#F60;
+	color:#FFF;
+	
+	}
+
+#AddInicio:hover {
+	background-color:#FFF;
+	color:#F60;
+	}
+		
+#Contactenos
+	{
+	background-color:#FFF;
+	border-radius:5px;
+	
+		border: solid 1px #CCC;
+	background: #FFFFFF;
+	padding: 16px;
+	width: auto%;
+	
+	
+	}
+#Contactenos div
+	{
+     display:inline-block;
+     margin-right:20px;
+	}
+
+
+
+	
+li.Producto
+{
+	list-style-type: none;
+	position:relative;
+	 width:150px; 
+	 height:150px;
+	 padding:3px; 
+	 float:left; 
+	 margin:10px;
+}
+
+li.InfoProducto
+{
+	position:absolute;
+	top:-9999px;
+	left:-9999PX;
+	width:200px;
+	height:200px;
+	border:3px solid #CCC;
+	background-color:#F8F8F8;
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:3px;
+
+}	
+	
+
+

@@ -1,0 +1,138 @@
+/* La etiqueta nav está disponible desde html5 y permite identificar
+   las partes de un menu principal. Les doy una medida de ancho y margin:0 auto;
+   para que aparesca centrada la lista con el menu 
+*/
+#NavMenu{
+
+ height:28px;
+	width:105%;
+	margin:0px auto;
+	margin-bottom:5px;
+
+
+}
+.Fecha
+{
+	
+	/*agrega pixeles desde la posicon original*/
+	position:absolute;
+	top:20px;
+	left:105px;
+}
+
+/* Es el ul principal, configurado para que no muestre viñetas y con las configuraciones para
+   alinear al centro */
+#menu { 
+
+ list-style:none;
+ list-style-position:inside;
+ display:block;
+ text-align:center;
+ text-decoration:none;
+ font-family:sans-serif;
+ font-weight:bold;
+ outline:none;
+ 
+ }
+ 
+/* Configuración de como se veran los enlaces PRINCIPALES*/
+#menu a, #menu a:visited,.SubMenu{
+	
+ color:#FFFFFF;
+ text-decoration:none;
+ font-family:sans-serif;
+ font-weight:bold;
+ outline:none;
+ 
+}
+.SubMenuHover
+{
+  color:#FFFFFF;
+  
+}
+
+#menu a:hover{
+ color:#FFFFFF;
+
+ text-decoration:none;
+}
+
+/* Es cada opción principal del menu, los ordena horizontalmente con la propiedad float.
+   Al tener un ancho fijo, se alinea su contenido al centro y con position:relative; permite
+   que al pasar el cursor, aparescan las opciones bajo cada opción principal
+*/
+#menu li{
+
+ display:inline-block;
+ font-size:14px;
+ padding:15px;
+ width:90PX;
+ 	
+ position:relative;
+ border:thin solid #F60;
+
+border-radius:5px 5px 5px 5px;
+
+
+ background-color:#FFEFDF;
+ box-shadow:#000;
+ color:#FF6600;
+ 
+}
+/* Configuración al pasar el mouse ensima de una opción principal */
+#menu li:hover{
+	color:#FFFFFF;
+ background-color:#FF8000;
+ /* box-shadow:0px 0px 20px rgba(255,102,0,0.5);*/
+}
+
+/* Hace visible el ul del submenu el cual contiene todas las opciones al pasar el mouse ensima de una opción principal */
+#menu li:hover > ul{
+		color:#FF6600;
+ display:block;
+ left:-1px;
+ 
+   
+}
+/* Es el submenu. Con display none permanece escondido y con position absolute le dice que aparesca
+   bajo la opción padre. Con top y right se dice a que altura de la opción debe aparecer.
+   Finalmente, con z-index:1; le dice que sobreponga a cualquier otro elemento el submenu.
+*/
+#menu li ul{
+ list-style:none;
+ list-style-position:inside;
+ display:none;
+ position:absolute;
+ top:50px;
+ left:10px;
+ z-index:1;
+ 
+  	
+}
+/* Son las opciones del submenu. */
+#menu li ul li{
+/* background-color:#FF9900;*/
+ background-color:#FFFFFF;
+  color:#FF9900;
+ padding:10px;
+
+ border-bottom:solid  thin #FF9900;
+ border-left:1px #FF9900 solid;
+ border-right:1px #FF9900 solid;
+  border-radius:0 0 0px 0px;
+  
+  
+}
+/* Es la ultima opción del submenu. con border-radius se da los bordes redondeados al final */
+#menu .ultimo{
+ border-radius:0 0 10px 10px;
+ border-bottom:solid  thin #FF9900;
+ border-left:1px #FF9900 solid;
+ border-right:1px #FF9900 solid;
+ border-top:none;
+  background-color:#FFFFFF;
+ width:90px;
+}
+  
+
+

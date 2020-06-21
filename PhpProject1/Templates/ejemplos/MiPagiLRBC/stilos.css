@@ -1,0 +1,40 @@
+/* CSS Document */
+
+.NumPagina
+{
+	text-align:center;
+display:block; float:left; 
+ border:thin solid #000; 
+ padding:3px;
+background-color:#FFF5EC;
+margin-right:5px;
+border-radius:3px;
+color#000;
+min-width:20px;
+max-width:auto;
+color#000;
+text-decoration:none;
+}
+
+.NumPagina:hover
+{
+background-color:#F60;
+color:#FFF;
+}
+.NumPaginaACTIVO
+{
+
+	text-align:center;
+display:block; float:left; 
+ border:thin solid #000; 
+ padding:3px;
+background-color:#F60;
+margin-right:5px;
+border-radius:3px;
+
+color:#FFF;
+min-width:20px;
+max-width:auto;
+
+}
+

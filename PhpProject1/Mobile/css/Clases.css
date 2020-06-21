@@ -1,0 +1,802 @@
+/* CSS Document */
+.ImgRevista > img
+{
+ margin:3px;
+ border:thin solid #F60;
+ border-radius:5px;
+ padding:5px;
+}
+.DetImg
+{
+
+padding:3px;
+border:thin solid #F60;
+border-radius:3px;
+}
+.Devolver
+{
+height:30px;
+
+	text-align:center;
+	 color:#FFF;
+width:100%;
+
+	 border:thin solid #8A4500;
+	  background-color:#FF6600; 
+	  border-radius:3px;
+	   padding:3px;
+	cursor:pointer;
+	}
+	
+
+.Tabla
+{
+border: thin solid #CCC;
+}
+.Tabla tr,.Tabla tr td
+{
+border: thin solid #CCC;
+}
+.PCategoria a:hover
+{color:#FFFFFF;}
+.PCategoria a
+{
+	
+font-size:12px;
+/*color:#E2841B;*/
+ color:#FFFFFF;
+ text-decoration:none;
+ font-family:sans-serif;
+ font-weight:bold;
+ outline:none;
+ text-align:center;
+ margin:0 auto;
+
+}
+
+/*Cuadro de texto de INDEX buscar*/
+.Buscar
+{
+	border-radius:5px;
+	padding: 5px;
+	float: right;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	padding: 4px;
+	border-radius: 4PX;
+	border: thin solid #CCC;
+	width: 200px;
+	min-width: 100px;
+	margin: 1px;
+	height: 15px;
+	position: absolute;
+	top: 1px;
+	right: 98px;
+	
+	}
+	
+	
+	.CantCar
+	{
+	border-radius:5px;
+		padding:5px;
+		float: left;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #333;
+		border:thin solid #CCC;
+			width:80%;
+			margin:0 auto;
+			
+			
+		}
+.CajaTexto,.Cant,.DetCant
+{
+		border-radius:5px;
+		padding:5px;
+		float: left;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #333;
+		border:thin solid #CCC;
+	    
+	
+	margin-bottom: 4px;
+	margin-right:5px;
+width:95%;
+
+}
+.Cant,.DetCant
+{
+	border:thin solid #F60;
+	margin-top:-25px;
+
+width:90%;
+margin-bottom:5px;
+height:12px;
+}
+/*este esta dentro del diseno del boton agregar por eso deben subirlo*/
+.DetCant{
+	margin-top:-35px;
+	}
+.CajaTextoBuscarArticulo
+{
+		border-radius:5px;
+		padding:5px;
+		float: left;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #333;
+		border:thin solid #CCC;
+	   	margin-bottom: 4px;
+    	margin-right:5px;
+        margin-top:-15px;
+        width:85%;
+        min-width:200px;
+}
+
+.CajaTextoLogin{
+		border-radius:5px;
+		padding:5px;
+		float: left;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #333;
+		border:thin solid #CCC;
+		margin-bottom: 4px;
+    	margin:auto 0;
+        width:90%;
+        
+}
+.PersonalAutorizado
+{
+	padding:5px;
+	border-radius:5px;
+
+	height:auto;
+	width:100%;
+	margin: 0 auto;
+
+}
+.PersonalAutorizado div
+{display:inline-block;}
+
+.CajaPersona 
+{
+
+height:400px;
+width:200px;
+border:thin solid #CCC;
+margin:3px;
+border-radius:5px;
+padding:5px;
+
+background-color:#FFF;
+}
+.CajaPersona:hover
+{
+z-index:10px;
+ box-shadow:0px 0px 20px rgba(255,153,0,0.5);
+}
+.CajaPersona  div
+{
+display:inline-block;
+}
+.Imgagente > img
+{
+width:195px;
+height:185px;
+border-radius:2px;
+}
+.IfoAgente {
+	
+	padding:-2px;
+	color:#333;
+	position:relative;
+	top:-20px;
+	left:15px;
+	}
+.IfoAgente p { margin-bottom:-8px; color:#666;}
+.Persona  img
+{
+	border-radius:5px;
+	border: thin solid #CCC;
+	
+}
+.Revista
+{
+width:100%;
+height:auto;
+}
+.PantallaCompletaRevista
+{
+padding:2px; background-color:#F93;  border:thin solid #CCC; border-radius:2px;
+
+border-radius:5PX;
+padding:5PX;
+}
+
+.PantallaCompletaRevista a
+{
+	font:Tahoma, Geneva, sans-serif 16PX;
+color:#FFF;
+text-decoration:none;
+}
+.PantallaCompletaRevista a:hover
+{
+color:#333;
+
+}
+
+.CuadroInfo
+{
+	
+	margin:5px;
+	width: 110px;;
+	height:110PX;
+	display: inline-block;
+	border-radius:10px;
+	padding:10px;
+	border:thin solid #CCC;
+}
+.CuadroInfo:hover
+{ box-shadow:0px 0px 20px rgba(255,102,0,0.5);
+}
+.CuadroInfo a
+{
+font-size:6px;
+}
+
+.Contenedores
+{
+ box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+ padding:10px;
+ border-radius:10px;
+ background:#FFF;
+}
+.Cajas
+{
+margin-left:-2px;
+
+background:#FFF;
+
+border-radius:10px;
+padding:10px;
+margin-bottom:10px;
+
+
+}
+ div.Subtext,div.Subimg
+{
+/*display:inline-block;
+margin:auto 0px;*/
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.Subtext
+{
+
+width:100%;
+height:auto;
+
+padding:3px;
+
+
+
+
+
+}
+.Subimg
+{
+
+border-radius:10px;
+padding:10px;
+height:160px;
+width:180px;
+
+background:#FFF;
+border:thin solid #CCC;
+
+}
+.Subimg img
+{
+
+height:160px;
+width:180px;
+margin:0 auto;
+
+}
+
+.Subtitulos 
+{
+	
+text-align:left;
+
+
+
+ padding:10px;
+color:#004080;
+margin-top:10px;
+margin-bottom:1px;
+
+z-index:200;
+}
+.titulos 
+{
+ text-align:center;
+ padding:1px;
+ color:#004080;
+ margin-top:2px;
+  margin-bottom:2px;
+ font-size:13px;
+}
+
+h2.titulos {
+		
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 20px;
+  /* color: #006CB6;*/
+  color:#004080;
+   text-align: center;
+   letter-spacing: 2px;
+   padding: 10px 0;
+  }
+  h3.titulos {
+	  margin-top:40px;
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 18px;
+   /* color: #006CB6;*/
+ color:#004080;
+   text-align: left;
+   letter-spacing: 1px;
+   padding: 20px 0;
+  }
+  .Etiquetas
+  {
+	 
+ font-family: 'Fjalla One', sans-serif;
+   font-size: 12px;
+   color: #FF8000;
+   text-align: left;
+   letter-spacing: 1px;
+   padding: 2px 0;
+   text-decoration:none;
+ 
+
+}
+  .EtiquetasLogin
+  {
+	  text-align:center;
+	margin-left:10px;
+ font-family: 'Fjalla One', sans-serif;
+   font-size: 14px;
+   font:bold;
+   color: #FF6600;
+   text-align: center;
+   letter-spacing: 1px;
+   padding: 2px 0;
+}
+
+    .Textos{
+    
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:14px;
+     color: #666666;
+    
+	 clear: both;
+	float: left;
+	margin-left: 0;
+	width: 95%;
+	padding:10px;
+	display: block;
+
+}
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width: 481px) {
+
+#Textos {
+	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:14px;
+     color: #666666;
+	 
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 95%;
+	padding:10px;
+	display: block;
+}
+
+
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+
+#Textos {
+	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:14px;
+     color: #666666;
+	 
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 95%;
+	display: block;
+	padding:10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTAS SON LAS CLASES PARA LOS PRODUCTOS */	
+
+#DatosDePagina{
+	height:auto;
+	width:100%;
+    float:left;	
+    overflow-x:hidden;
+	margin-right:5px;
+	}
+	
+.FondoArticulos
+	{
+	height:auto;
+	overflow:hidden;
+	width:95%;
+	background:#EEEEEE;
+	
+	border:thin solid #CCC;
+	border-radius:5px;
+	padding:5px;
+
+	}
+	
+	li.ProductoIndex,.ProductoIndexLogiado{
+	
+	width:120px; 
+	height:150px;
+	
+	
+	background:#F00;
+	list-style-type: none;
+	position:relative; 
+	
+	padding:5px; 
+	float:left; 
+	margin:3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	border:thin solid #CCC; 
+	border-radius:5px;
+	background:#FFF;
+}
+
+	
+li.ProductoIndex img , li.ProductoIndexLogiado img
+{
+border:thin solid #CCC; 
+
+margin:0 auto;
+width:120px; 
+height:102px;
+
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+	li.ProductoIndex:hover,.ProductoIndexLogiado:hover{
+		
+		box-shadow:0px 0px 20px rgba(255,102,0,0.5);
+	}
+
+
+.ProductoIndexLogiado{height:240px;}
+
+
+
+
+ .ProductoIndex a , .ProductoIndexLogiado a  {
+	text-decoration:none;
+	color:#F60;
+	}	
+ .ProductoIndex a , .ProductoIndexLogiado a  {
+	text-decoration:none;
+	color:#F60;
+	}
+	
+/*	*/
+li.InfoArticulo{
+	position:absolute;
+	top:-9999px;
+	left:-9999PX;
+	border-radius:5PX;
+	border:1px solid #CCC;
+	background-color:#FDFEFF;
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:5px;
+	width:185px;
+	min-height:200PX;
+	max-height:AUTO;
+	
+}
+
+li.InfoArticulo p{ 
+margin-top:-10px;
+text-align:left;;
+		color:#333333;
+		
+		font-size:13px;
+}
+
+.ProductoIndex:hover .InfoArticulo{
+	top:2%;
+	left:4%;
+	z-index:10000;
+	 box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+}
+.ProductoIndexLogiado:hover .InfoArticulo{
+	top:5%;
+	left:-2%;
+	z-index:10000;
+	 box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+}
+.TituloArticulo,.TituloArticuloINFO
+{
+	border-radius:0 0 3px 3px;
+	width:96%;
+	height:30px; 
+	
+	padding:2PX; 
+	margin-top:1PX; 
+	margin-left:0px;
+	color:#004080; 
+	font-size:10px; 
+	font-family:Tahoma, Geneva, sans-serif;  
+	background-color:#FFF;
+	margin-bottom:15px;
+	 }
+.TituloArticuloINFO
+{
+	padding:2px;
+	border:thin solid #CCC;
+	background-color:#004080; 
+	color:#FFF;
+	min-height:15px;
+	max-height:auto;
+	
+	width:90%;
+	
+
+	margin-top:-2px;
+	 }
+
+
+/*Esta clase se usa en la pagina DE BIENVENIDA*/
+.FCorte{
+ font-size:10px;
+}
+.Categorias{
+ widows:100PX;
+ height:auto;
+ padding:1PX;
+ padding-left:1PX;
+ font-size:9px;
+ margin-left:-10px;
+ margin-bottom:5px;
+ margin:0 auto;
+ background-color:#F60;
+ border-bottom:thin solid #FFF;
+ border-radius:10px;
+ padding:10px;
+}
+.Categorias p:hover{
+ background-color:#FFCF9F;
+ }
+.OF{
+ border:thin solid #CCC;
+ border-radius:5px;
+ widows:145PX;
+ height:auto;
+ padding:5PX;
+ font-size:9px;
+ margin:0 auto;
+ margin-bottom:10px;
+ background-color:#ECF5FF;
+}
+.OF > img{
+ widows:180px;
+ height:153px;
+ border-radius:3PX; padding:3PX;
+ border:thin solid #CCC;
+}
+.OF a {
+ text-decoration:none;
+}
+.Abreviaturas p{ 
+ font-family:Tahoma, Geneva, sans-serif;
+ font-size:12px;
+}
+.Fotos img{
+ border:thin solid #CCC;
+ padding:3px;
+ border-radius:3px;
+ width:250px;
+ height:250px;
+margin:2px;
+ 
+	}
+
+	
+.Btn_Carrito{
+  border-radius:3px; padding:3px; height:21px; background:#F60; color:#FFF; text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:14px; float:left; margin-right:25px; padding-top:6px;"
+}
+.ClassBotones {
+ -moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+ -webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+ box-shadow:inset 0px 1px 0px 0px #fce2c1;
+ background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fa9a25) );
+ background:-moz-linear-gradient( center top, #ffc477 5%, #fa9a25 100% );
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fa9a25');
+ background-color:#ffc477;
+ -webkit-border-top-left-radius:7px;
+ -moz-border-radius-topleft:7px;
+ border-top-left-radius:7px;
+ -webkit-border-top-right-radius:7px;
+ -moz-border-radius-topright:7px;
+ border-top-right-radius:7px;
+ -webkit-border-bottom-right-radius:7px;
+ -moz-border-radius-bottomright:7px;
+ border-bottom-right-radius:7px;
+ -webkit-border-bottom-left-radius:7px;
+ -moz-border-radius-bottomleft:7px;
+ border-bottom-left-radius:7px;
+ text-indent:1.6px;
+ border:1px solid #eeb44f;
+ display:inline-block;
+ color:#ffffff;
+ font-family:Arial;
+ font-size:16px;
+ font-weight:bold;
+ font-style:italic;
+ height:26px;
+ line-height:26px;
+ width-max:auto;
+ width-min:180px;
+ margin-bottom:2px;
+ text-decoration:none;
+ text-align:center;
+ padding-left:4px;
+ padding-right:4px;
+ text-shadow:1px 1px 0px #cc9f52;
+}
+.ClassBotones:hover {
+ background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fa9a25), color-stop(1, #ffc477) );
+ background:-moz-linear-gradient( center top, #fa9a25 5%, #ffc477 100% );
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa9a25', endColorstr='#ffc477');
+ background-color:#fa9a25;
+}
+.ClassBotones:active {
+ position:relative;
+ top:1px;
+}
+/* Diseño de  ayuda*/
+.CuadroAyuda{
+ margin:0px auto;
+ border:thin solid #F60;
+ padding:5px;
+ border-radius:5px;
+ width:500px;
+ background:#FFF;
+}
+.IndexAyuda{
+  border:thin solid #F60;
+  padding:3px; 
+  border-radius:3px;
+  margin:3px;
+  height:100px;
+   background:#FFF;
+ }
+ .IndexAyuda:hover{
+ box-shadow:0px 0px 20px rgba(255,102,0,0.5);
+ }
+ .IndexAyuda a{
+ display:inline-block;
+ font-size:14px;
+ padding:20px;
+ width:auto;
+ height:35px;
+ position:relative;
+ border-right:thin solid #F60;
+ border-radius:10px 10px 0 0;
+ border:1px white solid;
+ border-top:none;
+ text-decoration:none;
+ box-shadow:#000;
+ color: #999;
+
+}
+.tituloAyuda
+{
+ font-size:14px;
+  color:#FFF;
+ background-color:#F60;
+ border-radius:5px;
+ border-bottom:thin solid #F60;
+ 
+}
+.Agregado
+{
+	margin-top:15px;
+ margin:0 auto;
+	background-color:#C0C0C0;
+	color:#808080;
+	height:40px;
+}
+
+#AccionesAgregado
+{
+
+	overflow:hidden;
+	float:right;
+	height:auto;
+    background:#FFF;
+	width:100%;
+	border-radius:5px;
+	border: thin solid #CCC;
+
+
+}
+#AccionesAgregado img 
+{
+width:35px;
+height:35px;
+margin:0 auto;
+
+}
+#AccionesAgregadoCarrito img 
+{
+width:25px;
+height:25px;
+margin:0 auto;
+
+}
+#AccionesAgregadoCarrito
+{
+
+	overflow:hidden;
+	float:right;
+	height:35px;
+    background:#FFF;
+	width:100%;
+	border-radius:5px;
+	border: thin solid #CCC;
+
+
+}
+/* This button was generated using CSSButtonGenerator.com */

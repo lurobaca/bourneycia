@@ -1,0 +1,33 @@
+/* CSS Document */
+.fadebox {
+	display: none;
+	
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 500%;
+	background-color: #000000;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.overbox {
+	display: none;
+	position: absolute;
+	top: 15px;
+	left: 20%;
+	width: 800px;
+	height:2000px;
+	z-index:1002;
+	overflow: none;
+	border-radius:20px;
+}
+#content {
+	
+	
+	padding: 10px;
+	height:auto;
+}
+

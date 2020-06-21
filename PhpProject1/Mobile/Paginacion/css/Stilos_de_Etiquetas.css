@@ -1,0 +1,52 @@
+/* CSS Document */
+
+body
+{
+
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: 100%;
+background-size: cover;
+background-color:#DFEFFF;
+	}
+	
+
+h1 {
+    display:inline;
+	color:#FFF;
+}
+
+
+  
+label
+{
+
+	display:inline-block;
+}
+
+footer
+{
+color:#666;
+text-align:center;
+}
+footer p
+{
+display:inline-block;
+margin-right:40px;
+}
+
+h5{
+	color:#004080;
+	/*color:#F63;*/
+font-family:"Times New Roman", Times, serif;
+text-align:center;
+margin-top:-10PX;
+
+	}
+	
+header a{ 
+z-index:10px;
+height:auto; width:auto;}
+
+	
+ 

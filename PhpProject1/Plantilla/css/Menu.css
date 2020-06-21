@@ -1,0 +1,151 @@
+/* La etiqueta nav está disponible desde html5 y permite identificar
+   las partes de un menu principal. Les doy una medida de ancho y margin:0 auto;
+   para que aparesca centrada la lista con el menu 
+*/.Fecha
+{
+	
+	/*agrega pixeles desde la posicon original*/
+	position:absolute;
+	top:20px;
+	left:105px;
+}
+#NavMenu{
+
+
+	width:88%;
+	min-width:950px;
+	margin-left:-30PX;
+	margin-bottom:-30px;
+
+border-radius:5px;
+box-shadow: 5px 5px 15px #333333;
+position: absolute;
+z-index:1;
+height:52px;
+/*background-image:url(../../img/General/FondoMenu.jpg) ;*/
+background-color:#FF6702;
+}
+
+
+/* Es el ul principal, configurado para que no muestre viñetas y con las configuraciones para
+   alinear al centro */
+#menu { 
+
+ list-style:none;
+ list-style-position:inside;
+ display:block;
+ text-align:center;
+ text-decoration:none;
+ font-family:sans-serif;
+ font-weight:bold;
+ outline:none;
+ margin-top:-5px;
+ z-index:1000;
+ }
+ 
+/* Configuración de como se veran los enlaces PRINCIPALES*/
+#menu a, #menu a:visited,.SubMenu{
+	
+ color:#FFFFFF;
+ text-decoration:none;
+ font-family:sans-serif;
+ font-weight:bold;
+ outline:none;
+ 
+}
+.SubMenuHover
+{
+  color:#FFFFFF;
+  
+}
+
+#menu a:hover{
+ color:#FFFFFF;
+
+ text-decoration:none;
+}
+
+/* Es cada opción principal del menu, los ordena horizontalmente con la propiedad float.
+   Al tener un ancho fijo, se alinea su contenido al centro y con position:relative; permite
+   que al pasar el cursor, aparescan las opciones bajo cada opción principal
+*/
+#menu li{
+ margin-top:7px;
+ display:inline-block;
+ font-size:14px;
+ padding:15px;
+ width:93PX;
+ position:relative;
+/* border-radius:10px 10px 10px 10px;*/
+ 
+
+ /*background-color:#FF6600;background-image:url(../../img/General/OpPrincipal.jpg);*/
+background-color:#FF6702 ;
+color:#FFFFFF;
+ border-right:thin solid #FFFFFF;
+
+ box-shadow:#FFFFFF;
+
+}
+/* Configuración al pasar el mouse ensima de una opción principal */
+#menu li:hover{
+  	color:#FF6600;
+ background-color:#FFCE9D;
+ /*background-image:url(../../img/General/OpPrincipalHover.jpg);
+  box-shadow:0px 0px 20px rgba(255,102,0,0.5);*/
+ 
+}
+
+/* Hace visible el ul del submenu el cual contiene todas las opciones al pasar el mouse ensima de una opción principal */
+#menu li:hover > ul{
+		color:#FFFFFF;
+ display:block;
+ left:-40px;
+  width:102PX;
+ 
+/*background-image:none;
+ background-image:url(../../img/General/OpSubMenuHover.jpg);*/
+   
+}
+/*#menu li:hover ul li:hover
+{
+background-image:none;
+}*/
+/* Es el submenu. Con display none permanece escondido y con position absolute le dice que aparesca
+   bajo la opción padre. Con top y right se dice a que altura de la opción debe aparecer.
+   Finalmente, con z-index:1; le dice que sobreponga a cualquier otro elemento el submenu.
+*/
+#menu li ul{
+ list-style:none;
+ list-style-position:inside;
+ display:none;
+ position:absolute;
+ top:46px;
+ left:-10px;
+ z-index:2;
+  width:102PX;
+}
+/* Son las opciones del submenu. */
+#menu li ul li{
+	
+ background-color:#FF6702; /*background-image:none;background-image:url(../../img/General/OpSubMenu.jpg);*/
+ border-bottom:solid  thin #FFA851;
+ border-left:1px #FFA851 solid;
+ border-right:1px #FFA851 solid;
+ border-radius:0 0 0px 0px;
+ padding:10px;
+ margin:0px;
+ width:102PX;
+}
+/* Es la ultima opción del submenu. con border-radius se da los bordes redondeados al final */
+#menu .ultimo{
+ border-radius:0 0 10px 10px;
+ border-bottom:solid  thin #FFA851;
+
+ border-top:none;
+background-image:none;
+width:102PX;;
+}
+  
+
+

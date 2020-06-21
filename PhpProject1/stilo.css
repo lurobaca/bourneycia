@@ -1,0 +1,15 @@
+/* CSS Document */
+body
+{
+	width:100%;
+	background-color:#000;
+}
+#productos
+{
+background-color:#FFF;
+margin:0 auto;
+margin-top:40px;
+padding:40px;
+width:800px;
+}
+

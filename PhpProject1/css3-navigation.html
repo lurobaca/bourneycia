@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tutorial – Pure CSS3 Navigation Menu</title>
+<style type="text/css">
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+						{background: transparent;border: 0;margin: 0; padding: 0; vertical-align: baseline;list-style:none}
+body 					{line-height: 1;}
+h1, h2, h3, h4, h5, h6 	{clear: both;font-weight: normal;}
+ol, ul 					{list-style: none;}
+blockquote 				{quotes: none;}
+blockquote:before, blockquote:after {content: '';content: none;}
+del 					{text-decoration: line-through;}
+/* tables still need 'cellspacing="0"' in the markup */
+table 					{border-collapse: collapse;	border-spacing: 0;}
+a img 					{border: none;}
+img.tutImg				{border: 2px solid #D8D8D8;}
+
+body					{font-family:Arial, Helvetica, sans-serif;padding:50px}
+
+
+ul.cssTabs			{
+	
+	background: #848383;
+	border:solid 1px #606060;
+	padding: 0 75px;
+	width: 800px;
+	margin:20px 0;
+	font-size:12px;
+	font-weight:bold;
+	
+	background:-moz-linear-gradient(0% 100% 90deg,#737373, #9a9a9a);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#9a9a9a), to(#737373));
+	
+	box-shadow: inset 0 1px 0 0 #dfdfdf;
+	-moz-box-shadow: inset 0 1px 0 0 #dfdfdf;
+	-webkit-box-shadow: inset 0 1px 0 0 #dfdfdf;
+	
+	border-radius: 8px 8px;
+	-moz-border-radius: 8px 8px;
+	-webkit-border-radius: 8px 8px;
+	
+}
+ul.cssTabs > li {
+	background:#989898;
+	color:#3a3a3a;
+	border:solid 1px #606060;
+	border-radius:5px;	
+	border-bottom:0;	
+	display: inline-block;
+	margin: 10px 1px -1px;
+	padding: 8px 20px;
+	
+	background:-moz-linear-gradient(0% 100% 90deg,#9a9a9a, #888888);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#888888), to(#9a9a9a));
+
+	box-shadow: inset 0 1px 0 0 #dfdfdf;
+	-moz-box-shadow: inset 0 1px 0 0 #dfdfdf;
+	-webkit-box-shadow: inset 0 1px 0 0 #dfdfdf;
+
+	text-shadow: 1px 1px 0 #d3d3d3;
+}
+
+ul.cssTabs > li.active,ul.cssTabs > li:hover {
+	background:#ededed;
+	
+	background:-moz-linear-gradient(0% 100% 90deg,#f0f0f0, #d1d1d1) !important;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#d1d1d1), to(#f0f0f0)) !important;
+	
+	box-shadow: inset 0 1px 0 0 #fff;
+	-moz-box-shadow: inset 0 1px 0 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 0 #fff;	
+	
+	text-shadow: none;
+	cursor:pointer;
+}
+
+ul.cssTabs.blue{
+	
+	background: #237e9f;
+	border-color:#20617f;
+
+	background:-moz-linear-gradient(0% 100% 90deg,#217092, #2d97b8);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#2d97b8), to(#217092));
+	
+	box-shadow: inset 0 1px 0 0 #a8e3f0;
+	-moz-box-shadow: inset 0 1px 0 0 #a8e3f0;
+	-webkit-box-shadow: inset 0 1px 0 0 #a8e3f0;
+
+}
+ul.cssTabs.blue > li,ul.cssTabs.blue > li:hover {
+	background:#2ca0c1;
+	color:#1a4760;
+	border-color:#20617f;
+	
+	background:-moz-linear-gradient(0% 100% 90deg,#2ca1c3, #2687aa);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#2687aa), to(#2ca1c3));
+
+	box-shadow: inset 0 1px 0 0 #a8e3f0;
+	-moz-box-shadow: inset 0 1px 0 0 #a8e3f0;
+	-webkit-box-shadow: inset 0 1px 0 0 #a8e3f0;
+
+	text-shadow: 1px 1px 0 #8cd9e8;
+	
+}
+
+ul.cssTabs.blue > li.active {
+	
+	box-shadow: inset 0 1px 0 0 #fff;
+	-moz-box-shadow: inset 0 1px 0 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 0 #fff;	
+	
+	text-shadow: none;
+}
+
+ul.cssTabs.orange{
+	
+	background: #d75125;
+	border-color:#9c2c09;
+
+	background:-moz-linear-gradient(0% 100% 90deg,#d44b22, #ea753d);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ea753d), to(#d44b22));
+	
+	box-shadow: inset 0 1px 0 0 #f5b497;
+	-moz-box-shadow: inset 0 1px 0 0 #f5b497;
+	-webkit-box-shadow: inset 0 1px 0 0 #f5b497;
+
+}
+ul.cssTabs.orange > li, ul.cssTabs.orange > li:hover {
+	background:#e1693e;
+	color:#5a2818;
+	border-color:#9c2c09;
+	
+	background:-moz-linear-gradient(0% 100% 90deg,#e47a48, #dd5733);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dd5733), to(#e47a48));
+
+	box-shadow: inset 0 1px 0 0 #f5b497;
+	-moz-box-shadow: inset 0 1px 0 0 #f5b497;
+	-webkit-box-shadow: inset 0 1px 0 0 #f5b497;
+
+	text-shadow: 1px 1px 0 #f3c6b3;
+	
+}
+
+ul.cssTabs.orange > li.active {
+	
+	box-shadow: inset 0 1px 0 0 #fff;
+	-moz-box-shadow: inset 0 1px 0 0 #fff;
+	-webkit-box-shadow: inset 0 1px 0 0 #fff;	
+	
+	text-shadow: none;
+}
+</style>
+</head>
+
+<body>
+<h2>Pure CSS3 Navigation Menu</h2>
+<!--
+<ul class="cssTabs">
+	<li class="active">Home</li>
+	<li>About us</li>
+	<li>Our Services</li>
+    <li>Contact us</li>           
+</ul>
+
+<ul class="cssTabs blue">
+	<li>Home</li>
+	<li class="active">About us</li>
+	<li>Our Services</li>
+    <li>Contact us</li>           
+</ul> -->
+<ul class="cssTabs orange">
+	<li>Home</li>
+	<li>About us</li>
+	<li class="active">Our Services</li>
+    <li>Contact us</li>           
+</ul>
+
+<a href="http://praveenfrancis.com/?p=147">&laquo; Go back to tutorial</a>
+
+</body>
+</html>
